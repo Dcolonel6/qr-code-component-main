@@ -53,6 +53,7 @@ table {
     font-family: Outfit;
     src: url('https://fonts.google.com/specimen/Outfit');
   }
+
 .wrapper {
     margin-top: 10px; 
     display: flex;
@@ -60,9 +61,15 @@ table {
     align-items: center;
     width: 50%;
     font-size: 15px;
-    font-family: Outfit;    
-    background-color: hsl(0, 0%, 100%);
+    font-family: Outfit;   
     
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .img-holder {
