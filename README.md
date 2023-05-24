@@ -30,6 +30,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 I have learnt about css flexbox and the object-fit property and how it resizes images w.r.t to aspect ratio.
+Also how to center a div both horizontally and vertically without flexbox
 
 ```css
 
@@ -52,6 +53,12 @@ I have learnt about css flexbox and the object-fit property and how it resizes i
     font-family: Outfit;    
     background-color: hsl(0, 0%, 100%);
     
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 ```
 
