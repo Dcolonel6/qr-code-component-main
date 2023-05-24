@@ -31,12 +31,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 I have learnt about css flexbox and the object-fit property and how it resizes images w.r.t to aspect ratio.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
+
 .img-holder {
     margin-top: 5px;
     margin-left: 8px;
