@@ -54,11 +54,9 @@ table {
     src: url('https://fonts.google.com/specimen/Outfit');
   }
 .wrapper {
-    margin-top: 10px;    
-    /* text-align: center; */
+    margin-top: 10px; 
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 50%;
     font-size: 15px;
@@ -91,8 +89,6 @@ table {
 }
 .title {
     font-weight: 700; 
-    
-
 }
 .text-holding p {
     font-weight: 400;  
